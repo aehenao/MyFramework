@@ -1,0 +1,24 @@
+{
+    "name": "aehenao/myframework",
+    "description": "MyFramework es un framework propio hecho para aprender.",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Andres Henao",
+        "email": "andrestivenhenao@gmail.com"
+      }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "php": "7.4 - 8.1"
+    },
+    "autoload": {
+      "psr-4": {
+        "MyFramework\\": "core/"
+      },
+      "files": [
+        "core/herlpers.php"
+      ]
+    }
+  }
